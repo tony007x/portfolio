@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@400;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    box-shadow: 0px 0px 10px black;
+}
+.navbar ul{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.navbar ul li{
+    display: inline;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family: 'Athiti', sans-serif;
+}
+.navbar a:hover{
+    color:cornflowerblue;
+}
+.navbar a:active{
+    color:rgb(0, 27, 79);
+}
+.header{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Athiti', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.firstproject{
+    /* border: solid; */
+    margin: 40px;
+}
+
+/* inside */
+.firstproject h1{
+    text-align: center;
+    font-family: 'Athiti', sans-serif;
+    margin: 20px;
+    
+}
+
+.picnsc{
+    text-align: center;
+}
+.picnsc img{
+    width: 60%;
+}
+
+.nscbio{
+    margin: 20px auto;
+}
+
+.nscbio h1{
+    font-family: 'Athiti', sans-serif;
+    font-size: 24px;
+}
+.nscbio p{
+    font-family: 'Athiti', sans-serif;
+    text-align: center;
+    font-size: 18px;   
+}
+
+.video h1{
+    font-family: 'Athiti', sans-serif;
+    font-size: 24px;
+}
+.golink{
+    text-align:center ;
+}
+.golink a{
+    font-size: 50px;
+    color: red;
+}
+.golink a:hover{
+    color: gray;
+}
+.golink a:active{
+    color: brown;
+}
+hr {
+    border-top: 2px solid;
+    width: 50%;
+    margin: 50px auto;
+}
+/* ---------------- */
